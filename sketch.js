@@ -156,7 +156,7 @@ function showResult2() {
     
     
      var offset_y = 200;   
-    text(myRec.resultString, random(width), random(200, height));
+    text(myRec.resultString, random(width), random(300, height));
     //pop()
   }
 }
