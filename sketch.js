@@ -18,7 +18,7 @@ myRec.continuous = true; // do continuous recognition
 function initCaptureDevice() {
   try {
     myCapture = createCapture(VIDEO);
-    myCapture.size(240, 320);
+    myCapture.size(width, height);
     myCapture.elt.setAttribute("playsinline", "");
     myCapture.hide();
     console.log(
@@ -223,7 +223,7 @@ function draw() {
       Now we can display images: source video (mirrored) and subsequent stages
       of image transformations made by VIDA.
     */
-    //image(myVida.currentImage, 0, 0);
+    image(myVida.currentImage, 0, 0);
     //image(myVida.backgroundImage, 320, 0);
     //image(myVida.differenceImage, 0, 240);
     //image(myVida.thresholdImage, 20, 240);
