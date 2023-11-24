@@ -254,7 +254,7 @@ function draw() {
     var temp_h = height;
     // offset from the upper left corner
     var offset_x = 0;
-    var offset_y = 400;
+    var offset_y = 0;
     // pixel-based blob coords
     var temp_rect_x,
       temp_rect_y,
