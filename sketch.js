@@ -197,9 +197,10 @@ function draw() {
     textFont(font);
     textStyle(BOLD);
     textWrap(WORD);
+    textAlign(CENTER);
     textSize(200);
     
-    //textAlign(CENTER);
+    
     showResult2();
     //pop();
     //clear();
