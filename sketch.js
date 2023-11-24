@@ -155,8 +155,8 @@ function showResult2() {
       rectY = map(rectY, 0, 1, 0, height);
     
     
-    
-    text(myRec.resultString, random(width), random(height));
+     var offset_y = 200;   
+    text(myRec.resultString, random(width), random(height-offset_y));
     //pop()
   }
 }
