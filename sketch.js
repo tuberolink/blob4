@@ -156,7 +156,7 @@ function showResult2() {
     
     
     
-    text(myRec.resultString, random(height), random(width));
+    text(myRec.resultString, random(width), random(height));
     //pop()
   }
 }
