@@ -250,7 +250,7 @@ function draw() {
     var temp_blobs = myVida.getBlobs();
     // define size of the drawing
     var temp_w = width;
-    var temp_h = height;
+    var temp_h = height * 0.8;
     // offset from the upper left corner
     var offset_x = 0;
     var offset_y = 0;
