@@ -156,7 +156,7 @@ function showResult2() {
     
     
      var offset_y = 200;   
-    text(myRec.resultString, random(width), random(330, height));
+    text(myRec.resultString, random(width), random(530, height));
     //pop()
   }
 }
@@ -254,7 +254,7 @@ function draw() {
     var temp_h = height;
     // offset from the upper left corner
     var offset_x = 0;
-    var offset_y = 200;
+    var offset_y = 400;
     // pixel-based blob coords
     var temp_rect_x,
       temp_rect_y,
