@@ -197,7 +197,7 @@ function draw() {
     textFont(font);
     textStyle(BOLD);
     textWrap(WORD);
-    textSize(100);
+    textSize(200);
     
     //textAlign(CENTER);
     showResult2();
