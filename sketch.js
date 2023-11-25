@@ -223,7 +223,7 @@ function draw() {
       Now we can display images: source video (mirrored) and subsequent stages
       of image transformations made by VIDA.
     */
-    image(myVida.currentImage, 0, 0);
+    //image(myVida.currentImage, 0, 0);
     //image(myVida.backgroundImage, 320, 0);
     //image(myVida.differenceImage, 0, 240);
     //image(myVida.thresholdImage, 20, 240);
@@ -254,7 +254,7 @@ function draw() {
     var temp_h = height;
     // offset from the upper left corner
     var offset_x = 0;
-    var offset_y = 400;
+    var offset_y = 700;
     // pixel-based blob coords
     var temp_rect_x,
       temp_rect_y,
