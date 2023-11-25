@@ -156,7 +156,7 @@ function showResult2() {
     
     
      var offset_y = 200;   
-    text(myRec.resultString, random(width), random(530, height));
+    text(myRec.resultString, random(width), random(330, height));
     //pop()
   }
 }
@@ -188,7 +188,10 @@ function draw() {
 
   if (myCapture !== null && myCapture !== undefined) {
     // safety first
-
+    push();
+    fill(100);
+    rect(0, 0, windowWidht, 200);
+    pop();
     
     //background(245, 232, 188);
     //push();
@@ -254,7 +257,7 @@ function draw() {
     var temp_h = height;
     // offset from the upper left corner
     var offset_x = 0;
-    var offset_y = 700;
+    var offset_y = 200;
     // pixel-based blob coords
     var temp_rect_x,
       temp_rect_y,
