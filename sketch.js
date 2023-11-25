@@ -18,7 +18,7 @@ myRec.continuous = true; // do continuous recognition
 function initCaptureDevice() {
   try {
     myCapture = createCapture(VIDEO);
-    myCapture.size(windowWidth, windowHeight);
+    myCapture.size(100, 100);
     myCapture.elt.setAttribute("playsinline", "");
     myCapture.hide();
     console.log(
