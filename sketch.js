@@ -156,7 +156,7 @@ function showResult2() {
     
     
      var offset_y = 200;   
-    text(myRec.resultString, random(width), random(330, height));
+    text(myRec.resultString, random(width), random(height - 530, height));
     //pop()
   }
 }
@@ -213,7 +213,7 @@ function draw() {
     textAlign(CENTER);
     textStyle(BOLD);
     textSize(50);    
-    text("TALK TO ME",width / 2, 100);
+    text("TALK TO ME",width / 2, height - 300);
     pop();
     //clear();
     /*
@@ -254,10 +254,10 @@ function draw() {
     var temp_blobs = myVida.getBlobs();
     // define size of the drawing
     var temp_w = width;
-    var temp_h = height-200;
+    var temp_h = height-400;
     // offset from the upper left corner
     var offset_x = 0;
-    var offset_y = 200;
+    var offset_y = 0;
     // pixel-based blob coords
     var temp_rect_x,
       temp_rect_y,
