@@ -188,11 +188,11 @@ function draw() {
 
   if (myCapture !== null && myCapture !== undefined) {
     // safety first
-    push();
+    /*push();
     fill(100);
     rect(0, 0, windowWidht, 200);
     pop();
-    
+    */
     //background(245, 232, 188);
     //push();
     fill(random(0,180),0, 0, random(0,255));
